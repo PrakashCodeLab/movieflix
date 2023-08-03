@@ -12,7 +12,7 @@ const MovieSec = () => {
 
   const [search, setSearchMovies] = useState("");
 
-  const url = " http://www.omdbapi.com/?&apikey=fab4a976";
+  const url = " https://www.omdbapi.com/?&apikey=fab4a976";
 
   const fetchMovie = async (title: string) => {
     try {
